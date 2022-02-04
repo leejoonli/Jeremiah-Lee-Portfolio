@@ -14,6 +14,7 @@ function Technologies() {
             <div>
                 <h1>Frameworks</h1>
                 <h2>React</h2>
+                <h2>React Router</h2>
                 <h2>MongoDB</h2>
                 <h2>Express</h2>
                 <h2>SQL</h2>
