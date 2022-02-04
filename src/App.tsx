@@ -7,7 +7,6 @@ import './App.css';
 function App() {
   return (
     <main>
-      hello world
       <Navigation />
       <Technologies />
       <Projects />
