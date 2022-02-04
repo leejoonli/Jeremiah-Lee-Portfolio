@@ -27,7 +27,15 @@ function Projects() {
             </div>
             <div>
                 <div>placeholder project 3</div>
-                <p>description project 3</p>
+                <div>
+                    <h2>FELP</h2>
+                    <p>FELP is a blog style food review application to document the hottest spots to go to eat.  The idea is verified locals who have lived in a certain area for an extended period of time would suggest the bets local restaraunts for tourists to go.  The application has full CRUD functionaliy for registered users.  Frontend created using React, Javascript, CSS, with requests handled using Axios.  Backend created with MongoDB, Mongoose, Express, with user authentication being handled by Passport.  Feel like a local even when you're out of town.</p>
+                    <div>
+                        <a>Application</a>
+                        <a>Frontend</a>
+                        <a>Backend</a>
+                    </div>
+                </div>
             </div>
             <div>
                 <p>description project 4</p>
