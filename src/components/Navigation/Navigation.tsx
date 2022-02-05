@@ -1,17 +1,17 @@
 import React, { useState } from 'react';
 
 function Navigation() {
-    const [test, setTest] = useState(false);
+    const [showNav, setshowNav] = useState(false);
 
     const handleClick = (event: any) => {
-        setTest(prevCheck => !prevCheck);
+        setshowNav(prevCheck => !prevCheck);
     }
 
     return (
         <>
             <div>
                 <div onClick={handleClick}>placeholder img</div>
-                {test && (
+                {showNav && (
                     <>
                         <div>
                             <h2>Skills</h2>
