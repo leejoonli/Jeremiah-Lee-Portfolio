@@ -3,7 +3,7 @@ import styles from './Technologies.module.css';
 
 function Technologies() {
     return (
-        <div>
+        <div className={styles.techContainer}>
             <h1>Languages</h1>
             <div className={styles.languages}>
                 <h2>JavaScript</h2>

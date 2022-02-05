@@ -4,7 +4,7 @@ import styles from './Projects.module.css';
 function Projects() {
     return (
         <div>
-            <div>
+            <div className={styles.projectContainer}>
                 <div>placeholder project 1</div>
                 <div>
                     <h2>Tower of Hanoi</h2>
@@ -15,7 +15,8 @@ function Projects() {
                     </div>
                 </div>
             </div>
-            <div>
+            <div className={styles.projectContainer}>
+                <div>placeholder project 2</div>
                 <div>
                     <h2>Dungeons and Dragons 5e Guide</h2>
                     <p>This application is a straightforward access point for one of greatest table top role playing games currently in existence, if not THE greatest.  Browse through the application and see what catches your eye.  Built using React, React Bootstrap, React Router, JavaScript, CSS, and deployed on Netlify.</p>
@@ -24,9 +25,8 @@ function Projects() {
                         <a>Repository</a>
                     </div>
                 </div>
-                <div>placeholder project 2</div>
             </div>
-            <div>
+            <div className={styles.projectContainer}>
                 <div>placeholder project 3</div>
                 <div>
                     <h2>FELP</h2>
@@ -38,9 +38,9 @@ function Projects() {
                     </div>
                 </div>
             </div>
-            <div>
-                <p>description project 4</p>
+            <div className={styles.projectContainer}>
                 <div>placeholder project 4</div>
+                <p>description project 4</p>
             </div>
         </div>
     );
