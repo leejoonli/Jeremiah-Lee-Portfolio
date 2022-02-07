@@ -11,8 +11,8 @@ function App() {
       <Navigation />
       <div className={styles.homeImg}>
         <div>
-          <h1>Jeremiah Lee</h1>
-          <h2>Software Engineer</h2>
+          <h1 className={styles.homeTitle}>Jeremiah Lee</h1>
+          <h2 className={styles.homeTitle}>Software Engineer</h2>
         </div>
       </div>
       <Technologies />
