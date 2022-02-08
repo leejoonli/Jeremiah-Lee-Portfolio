@@ -7,3 +7,13 @@
 .languages, .frameworks {
     display: flex;
 }
+
+.techIcons {
+    height: 100px;
+}
+
+.techHeader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
