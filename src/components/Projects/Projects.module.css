@@ -1,4 +1,4 @@
-.projectContainer, .project {
+.projectContainer, .project, .projectImgContainer {
     display: flex;
     flex-direction: column;
     align-items: center;

@@ -8,7 +8,7 @@ function Projects() {
     return (
         <div>
             <div className={styles.projectContainer}>
-                <div>
+                <div className={styles.projectImgContainer}>
                     <img src={tower_of_hanoi} alt='Application State' className={styles.projectImg} />
                 </div>
                 <div className={styles.project}>
@@ -21,7 +21,7 @@ function Projects() {
                 </div>
             </div>
             <div className={styles.projectContainer}>
-                <div>
+                <div className={styles.projectImgContainer}>
                     <img src={dnd} alt='Application State' className={styles.projectImg} />
                 </div>
                 <div className={styles.project}>
@@ -34,7 +34,7 @@ function Projects() {
                 </div>
             </div>
             <div className={styles.projectContainer}>
-                <div>
+                <div className={styles.projectImgContainer}>
                     <img src={felp} alt='Application State' className={styles.projectImg} />
                 </div>
                 <div className={styles.project}>
@@ -48,7 +48,7 @@ function Projects() {
                 </div>
             </div>
             <div className={styles.projectContainer}>
-                <div>placeholder project 4</div>
+                <div className={styles.projectImgContainer}>placeholder project 4</div>
                 <div className={styles.project}>
                     <h2>project 4 name</h2>
                     <p>description project 4</p>
