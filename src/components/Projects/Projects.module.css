@@ -7,3 +7,7 @@
 .projectImg {
     width: 80%;
 }
+
+.projectDesc {
+    text-align: justify;
+}

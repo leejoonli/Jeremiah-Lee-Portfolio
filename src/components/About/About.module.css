@@ -6,3 +6,7 @@
 .aboutHeader {
     text-align: center;
 }
+
+.aboutDesc {
+    text-align: justify;
+}
