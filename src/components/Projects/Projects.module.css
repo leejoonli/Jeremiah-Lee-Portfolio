@@ -1,5 +1,9 @@
-.projectContainer {
+.projectContainer, .project {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.projectImg {
+    width: 80%;
 }
