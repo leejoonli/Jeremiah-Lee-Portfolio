@@ -10,8 +10,8 @@ function Projects() {
                     <h2>Tower of Hanoi</h2>
                     <p>Tower of Hanoi is an application based off the real-life mathematical puzzle game "Tower of Hanoi".  Can you complete this challenging game?  Adjust the difficulty and find out how far you can go.  Created in vanilla JavaScript, HTML, and CSS.</p>
                     <div>
-                        <a>Application</a>
-                        <a>Repository</a>
+                        <a href='https://leejoonli.github.io/tower-of-hanoi/' target='_blank' rel='noreferrer'>Application</a>
+                        <a href='https://github.com/leejoonli/tower-of-hanoi' target='_blank' rel='noreferrer'>Repository</a>
                     </div>
                 </div>
             </div>
