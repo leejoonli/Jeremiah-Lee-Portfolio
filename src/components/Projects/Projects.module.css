@@ -20,3 +20,24 @@
     line-height: 25px;
     padding: 2% 5% 2% 5%;
 }
+
+.projectLinkContainer, .projectLinkContainer3 {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.projectLinkContainer3 {
+    width: 80%;
+}
+
+.projectLink {
+    border: 1px solid #ffffff;;
+    border-radius: 5px;
+    padding: 1% 5%;
+}
+
+.projectLink:hover {
+    background-color: rgb(105,105,105,1);
+    font-weight: 600;
+}
