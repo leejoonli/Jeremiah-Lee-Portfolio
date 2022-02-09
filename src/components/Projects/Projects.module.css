@@ -1,4 +1,5 @@
 .projectContainer, .project, .projectImgContainer {
+    background-color: #1e1e1c;
     display: flex;
     flex-direction: column;
     align-items: center;
