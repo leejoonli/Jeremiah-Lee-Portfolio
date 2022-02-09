@@ -1,5 +1,17 @@
+.projectComponentContainer {
+    padding-bottom: 10%;
+    background-color: rgb(37, 37, 37);
+}
+
+.headerOne {
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    padding: 20% 0% 1% 0%;
+    letter-spacing: 5px;
+}
+
 .projectContainer, .project, .projectImgContainer {
-    background-color: #1e1e1c;
     display: flex;
     flex-direction: column;
     align-items: center;
