@@ -5,15 +5,34 @@
     align-items: center;
 }
 
+.techHeading, .techHeading2 {
+    letter-spacing: 8px;
+    font-weight: 600;
+    margin-top: 30%;
+    font-size: 2rem;
+    padding: 5%;
+}
+
+.techHeading2 {
+    margin-top: 10%;
+}
+
 .languages, .frameworks {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.iconContainer {
+    padding: 5%;
 }
 
 .techIcons {
-    height: 100px;
+    height: 80px;
 }
 
 .techHeader {
+    font-size: 1rem;
     display: flex;
     justify-content: center;
     align-items: center;
