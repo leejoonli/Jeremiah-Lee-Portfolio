@@ -6,15 +6,21 @@ function Navigation() {
 
     const handleClick = (event: any) => {
         setshowNav(prevCheck => !prevCheck);
+        console.log(event.target)
+        event.target.classList.toggle(styles.change);
     }
 
     return (
         <>
-            <div className={styles.test}>
-                <div onClick={handleClick}>placeholder img</div>
+            <div className={styles.nav}>
+                <div onClick={handleClick}>
+                    <div className={styles.barOne}></div>
+                    <div className={styles.barTwo}></div>
+                    <div className={styles.barThree}></div>
+                </div>
                 {showNav && (
                     <>
-                        <div>
+                        <div className={styles.navMenu}>
                             <h2>Skills</h2>
                             <h2>Projects</h2>
                             <h2>About</h2>

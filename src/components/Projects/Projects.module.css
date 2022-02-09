@@ -17,6 +17,10 @@
     align-items: center;
 }
 
+.project {
+    padding-bottom: 10%;
+}
+
 .projectImg {
     width: 80%;
     margin-top: 10%;

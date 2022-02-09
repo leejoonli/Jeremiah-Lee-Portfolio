@@ -50,7 +50,7 @@ function Projects() {
             </div>
             <div className={styles.projectContainer}>
                 <div className={styles.projectImgContainer}>placeholder project 4</div>
-                <div className={styles.project}>
+                <div className={styles.project4}>
                     <h2 className={styles.projectHeader}>project 4 name</h2>
                     <p className={styles.projectDesc}>description project 4</p>
                 </div>

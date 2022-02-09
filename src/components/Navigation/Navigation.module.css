@@ -1,3 +1,27 @@
-.test {
-    background-color: #1e1e1c;
+.nav {
+    display: flex;
+    position: absolute;
+    border: 1px solid red;
+}
+
+.barOne, .barTwo, .barThree {
+    width: 35px;
+    height: 5px;
+    background-color: lemonchiffon;
+    margin: 6px 0;
+    transition: .5s;
+}
+
+.change .barOne {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .barTwo {
+    opacity: 0;
+}
+
+.change .barThree {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px);
+  transform: rotate(45deg) translate(-8px, -8px);
 }
