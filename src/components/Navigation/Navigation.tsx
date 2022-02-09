@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import styles from './Navigation.module.css';
 
 function Navigation() {
     const [showNav, setshowNav] = useState(false);
@@ -9,7 +10,7 @@ function Navigation() {
 
     return (
         <>
-            <div>
+            <div className={styles.test}>
                 <div onClick={handleClick}>placeholder img</div>
                 {showNav && (
                     <>
