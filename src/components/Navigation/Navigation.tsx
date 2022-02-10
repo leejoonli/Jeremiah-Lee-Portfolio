@@ -14,11 +14,13 @@ function Navigation() {
 
     return (
         <>
-            <div onClick={handleClick} className={styles.nav} style={{ backgroundColor: showNav ? 'black' : 'none' }}>
+            <div>
                 {/* https://www.w3schools.com/howto/howto_css_menu_icon.asp */}
-                <div className={styles.barOne} style={{ transform: showNav ? 'rotate(-45deg) translate(-9px, 6px)' : 'none' }}></div>
-                <div className={styles.barTwo} style={{ opacity: showNav ? '0' : '1' }}></div>
-                <div className={styles.barThree} style={{ transform: showNav ? 'rotate(45deg) translate(-8px, -8px)' : 'none' }}></div>
+                <div onClick={handleClick} className={styles.nav}>
+                    <div className={styles.barOne} style={{ transform: showNav ? 'rotate(-45deg) translate(-9px, 6px)' : 'none' }}></div>
+                    <div className={styles.barTwo} style={{ opacity: showNav ? '0' : '1' }}></div>
+                    <div className={styles.barThree} style={{ transform: showNav ? 'rotate(45deg) translate(-8px, -8px)' : 'none' }}></div>
+                </div>
                 {showNav && (
                     <>
                         <ul className={styles.navMenu}>

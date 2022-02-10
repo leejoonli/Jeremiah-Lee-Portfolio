@@ -1,14 +1,16 @@
 .nav {
     position: fixed;
-    border: 1px solid red;
     padding: 0 6px;
+    z-index: 1;
+    top: 3%;
+    left: 5%;
 }
 
 /* https://www.w3schools.com/howto/howto_css_menu_icon.asp */
 .barOne, .barTwo, .barThree {
     width: 35px;
     height: 5px;
-    background-color: lemonchiffon;
+    background-color: #ffffff;
     border-radius: 2px;
     margin: 6px 0;
     transition: .5s;
@@ -21,19 +23,19 @@
 
 .navMenu {
     position: fixed;
-    border: 1px solid red;
     left: 0;
+    top: 0px;
     width: 100vw;
     animation: slidein .5s;
     background-color: black;
+    padding-top: 12%;
 }
 
 .jumpLink, .resumeLink {
-    border: 1px solid red;
     font-size: 1.2rem;
     font-weight: 600;
     width: 100%;
-    padding: 25px;
+    padding: 4% 6%;
     letter-spacing: 1px;
 }
 
@@ -45,11 +47,11 @@
 
 .otherLink {
     display: flex;
-    padding: 10px 25px;
+    padding: 2% 6% 4%;
 }
 
 .aTag {
-    margin-right: 20px;
+    margin-right: 7%;
 }
 
 .imgLink {
