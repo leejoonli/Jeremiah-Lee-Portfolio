@@ -12,3 +12,23 @@
     margin: 6px 0;
     transition: .5s;
 }
+
+@keyframes slidein {
+    from{transform: translateX(-100%);}
+    to{transform: translateX(0%);}
+}
+
+.navMenu {
+    position: absolute;
+    border: 1px solid red;
+    left: 0;
+    width: 100vw;
+    animation: slidein .5s;
+}
+
+.jumpLink, .resumeLink {
+    border: 1px solid red;
+    font-size: 1.2rem;
+    width: 100%;
+    padding: 25px;
+}

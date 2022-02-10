@@ -12,7 +12,7 @@ import ts from './img/ts.png';
 
 function Technologies() {
     return (
-        <div className={styles.techContainer}>
+        <div className={styles.techContainer} id='skills'>
             <h1 className={styles.techHeading}>LANGUAGES</h1>
             <div className={styles.languages}>
                 <div className={styles.iconContainer}>

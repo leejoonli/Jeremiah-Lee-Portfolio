@@ -16,20 +16,20 @@ function Navigation() {
                 <div className={styles.barOne} style={{ transform: showNav ? 'rotate(-45deg) translate(-9px, 6px)' : 'none' }}></div>
                 <div className={styles.barTwo} style={{ opacity: showNav ? '0' : '1' }}></div>
                 <div className={styles.barThree} style={{ transform: showNav ? 'rotate(45deg) translate(-8px, -8px)' : 'none' }}></div>
-            </div>
-            {/* {showNav && (
+                {showNav && (
                     <>
-                        <div className={styles.navMenu}>
-                            <h2>Skills</h2>
-                            <h2>Projects</h2>
-                            <h2>About</h2>
-                            <h2>CV</h2>
-                            <h2>GitHub</h2>
-                            <h2>LinkedIn</h2>
-                            <h2>Contact</h2>
-                        </div>
+                        <ul className={styles.navMenu}>
+                            <a href='#skills'><li className={styles.jumpLink}>Skills</li></a>
+                            <li className={styles.jumpLink}>Projects</li>
+                            <li className={styles.jumpLink}>About</li>
+                            <li className={styles.resumeLink}>CV</li>
+                            <li className={styles.githubLink}>GitHub</li>
+                            <li className={styles.linkedInLink}>LinkedIn</li>
+                            <li className={styles.emailLink}>Contact</li>
+                        </ul>
                     </>
-                )} */}
+                )}
+            </div>
         </>
     );
 }
