@@ -1,4 +1,7 @@
 import React, { useState } from 'react';
+import github from './img/github.png';
+import linkedIn from './img/linkedin.png';
+import gmail from './img/gmail.png';
 import styles from './Navigation.module.css';
 
 function Navigation() {
@@ -19,13 +22,17 @@ function Navigation() {
                 {showNav && (
                     <>
                         <ul className={styles.navMenu}>
-                            <a href='#skills'><li className={styles.jumpLink}>Skills</li></a>
-                            <a href='#projects'><li className={styles.jumpLink}>Projects</li></a>
-                            <a href='#about'><li className={styles.jumpLink}>About</li></a>
+                            <a href='#skills'><li className={styles.jumpLink}>SKILLS</li></a>
+                            <a href='#projects'><li className={styles.jumpLink}>PROJECTS</li></a>
+                            <a href='#about'><li className={styles.jumpLink}>ABOUT</li></a>
                             <li className={styles.resumeLink}>CV</li>
-                            <li className={styles.githubLink}>GitHub</li>
-                            <li className={styles.linkedInLink}>LinkedIn</li>
-                            <li className={styles.emailLink}>Contact</li>
+                            <li className={styles.otherLink}>
+                                <a href='https://github.com/leejoonli' target='_blank' rel='noreferrer'><img src={github} alt="Link to Jeremiah's Github" /></a>
+                                <a href='https://www.linkedin.com/in/jhwlee/' target='_blank' rel='noreferrer'><img src={linkedIn} alt="Link to Jeremiah's LinkedIn" /></a>
+                                <a><img src={gmail} alt="Send Jeremiah an email" /></a>
+                            </li>
+                            {/* <li className={styles.linkedInLink}>LinkedIn</li>
+                            <li className={styles.emailLink}>Contact</li> */}
                         </ul>
                     </>
                 )}

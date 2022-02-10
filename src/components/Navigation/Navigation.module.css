@@ -26,9 +26,11 @@
     animation: slidein .5s;
 }
 
-.jumpLink, .resumeLink {
+.jumpLink, .resumeLink, .otherLink {
     border: 1px solid red;
     font-size: 1.2rem;
+    font-weight: 600;
     width: 100%;
     padding: 25px;
+    letter-spacing: 1px;
 }
