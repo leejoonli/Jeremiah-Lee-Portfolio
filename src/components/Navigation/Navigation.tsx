@@ -31,7 +31,7 @@ function Navigation() {
                             <li className={styles.otherLink}>
                                 <a href='https://github.com/leejoonli' target='_blank' rel='noreferrer' className={styles.aTag}><img src={github} alt="Link to Jeremiah's Github" className={styles.imgLink} /></a>
                                 <a href='https://www.linkedin.com/in/jhwlee/' target='_blank' rel='noreferrer' className={styles.aTag}><img src={linkedIn} alt="Link to Jeremiah's LinkedIn" className={styles.imgLink} /></a>
-                                <a className={styles.aTag}><img src={gmail} alt="Send Jeremiah an email" className={styles.imgLink} /></a>
+                                <a href='mailto:jhwlee94@gmail.com' className={styles.aTag}><img src={gmail} alt="Send Jeremiah an email" className={styles.imgLink} /></a>
                             </li>
                         </ul>
                     </>
