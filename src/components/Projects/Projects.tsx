@@ -3,12 +3,14 @@ import styles from './Projects.module.css';
 import towerOfHanoi from './img/tower_of_hanoi.png';
 import dnd from './img/dnd.png';
 import felp from './img/felp.png';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 function Projects() {
     return (
         <div className={styles.projectComponentContainer} id='projects'>
             <h1 className={styles.headerOne}>PROJECTS</h1>
-            <div className={styles.projectContainer}>
+            <div className={styles.projectContainer} data-aos='flip-left' data-aos-once='true'>
                 <div className={styles.projectImgContainer}>
                     <img src={towerOfHanoi} alt='Application State' className={styles.projectImg} />
                 </div>
@@ -21,7 +23,7 @@ function Projects() {
                     </div>
                 </div>
             </div>
-            <div className={styles.projectContainer}>
+            <div className={styles.projectContainer} data-aos='flip-left' data-aos-once='true'>
                 <div className={styles.projectImgContainer}>
                     <img src={dnd} alt='Application State' className={styles.projectImg} />
                 </div>
@@ -34,7 +36,7 @@ function Projects() {
                     </div>
                 </div>
             </div>
-            <div className={styles.projectContainer}>
+            <div className={styles.projectContainer} data-aos='flip-left' data-aos-once='true'>
                 <div className={styles.projectImgContainer}>
                     <img src={felp} alt='Application State' className={styles.projectImg} />
                 </div>
@@ -48,7 +50,7 @@ function Projects() {
                     </div>
                 </div>
             </div>
-            <div className={styles.projectContainer}>
+            <div className={styles.projectContainer} data-aos='flip-left' data-aos-once='true'>
                 <div className={styles.projectImgContainer}>placeholder project 4</div>
                 <div className={styles.project4}>
                     <h2 className={styles.projectHeader}>project 4 name</h2>
