@@ -4,21 +4,20 @@ import styles from './Navigation.module.css';
 function Navigation() {
     const [showNav, setshowNav] = useState(false);
 
+    // stackoverflow answer but I forgot the link
     const handleClick = (event: any) => {
         setshowNav(prevCheck => !prevCheck);
-        console.log(event.target)
-        event.target.classList.toggle(styles.change);
     }
 
     return (
         <>
-            <div className={styles.nav}>
-                <div onClick={handleClick}>
-                    <div className={styles.barOne}></div>
-                    <div className={styles.barTwo}></div>
-                    <div className={styles.barThree}></div>
-                </div>
-                {showNav && (
+            <div onClick={handleClick} className={styles.nav}>
+                {/* https://www.w3schools.com/howto/howto_css_menu_icon.asp */}
+                <div className={styles.barOne} style={{ transform: showNav ? 'rotate(-45deg) translate(-9px, 6px)' : 'none' }}></div>
+                <div className={styles.barTwo} style={{ opacity: showNav ? '0' : '1' }}></div>
+                <div className={styles.barThree} style={{ transform: showNav ? 'rotate(45deg) translate(-8px, -8px)' : 'none' }}></div>
+            </div>
+            {/* {showNav && (
                     <>
                         <div className={styles.navMenu}>
                             <h2>Skills</h2>
@@ -30,8 +29,7 @@ function Navigation() {
                             <h2>Contact</h2>
                         </div>
                     </>
-                )}
-            </div>
+                )} */}
         </>
     );
 }
