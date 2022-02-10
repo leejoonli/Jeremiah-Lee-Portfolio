@@ -1,5 +1,10 @@
+.navContainer {
+    width: 100vw;
+    background-color: lemonchiffon;
+}
+
 .nav {
-    position: absolute;
+    position: fixed;
     border: 1px solid red;
     padding: 0 6px;
 }
@@ -19,18 +24,34 @@
 }
 
 .navMenu {
-    position: absolute;
+    position: fixed;
     border: 1px solid red;
     left: 0;
     width: 100vw;
     animation: slidein .5s;
 }
 
-.jumpLink, .resumeLink, .otherLink {
+.jumpLink, .resumeLink {
     border: 1px solid red;
     font-size: 1.2rem;
     font-weight: 600;
     width: 100%;
     padding: 25px;
     letter-spacing: 1px;
+}
+
+.otherLink {
+    display: flex;
+    padding: 10px 25px;
+}
+
+.aTag {
+    margin-right: 20px;
+}
+
+.imgLink {
+    display: flex;
+    justify-content: center;
+    width: 40px;
+    filter: grayscale(100%);
 }

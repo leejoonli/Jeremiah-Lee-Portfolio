@@ -13,7 +13,7 @@ function Navigation() {
     }
 
     return (
-        <>
+        <nav className={styles.navContainer}>
             <div onClick={handleClick} className={styles.nav}>
                 {/* https://www.w3schools.com/howto/howto_css_menu_icon.asp */}
                 <div className={styles.barOne} style={{ transform: showNav ? 'rotate(-45deg) translate(-9px, 6px)' : 'none' }}></div>
@@ -27,17 +27,15 @@ function Navigation() {
                             <a href='#about'><li className={styles.jumpLink}>ABOUT</li></a>
                             <li className={styles.resumeLink}>CV</li>
                             <li className={styles.otherLink}>
-                                <a href='https://github.com/leejoonli' target='_blank' rel='noreferrer'><img src={github} alt="Link to Jeremiah's Github" /></a>
-                                <a href='https://www.linkedin.com/in/jhwlee/' target='_blank' rel='noreferrer'><img src={linkedIn} alt="Link to Jeremiah's LinkedIn" /></a>
-                                <a><img src={gmail} alt="Send Jeremiah an email" /></a>
+                                <a href='https://github.com/leejoonli' target='_blank' rel='noreferrer' className={styles.aTag}><img src={github} alt="Link to Jeremiah's Github" className={styles.imgLink} /></a>
+                                <a href='https://www.linkedin.com/in/jhwlee/' target='_blank' rel='noreferrer' className={styles.aTag}><img src={linkedIn} alt="Link to Jeremiah's LinkedIn" className={styles.imgLink} /></a>
+                                <a className={styles.aTag}><img src={gmail} alt="Send Jeremiah an email" className={styles.imgLink} /></a>
                             </li>
-                            {/* <li className={styles.linkedInLink}>LinkedIn</li>
-                            <li className={styles.emailLink}>Contact</li> */}
                         </ul>
                     </>
                 )}
             </div>
-        </>
+        </nav>
     );
 }
 
