@@ -3,7 +3,7 @@ import styles from './About.module.css';
 
 function About() {
     return (
-        <div className={styles.aboutContainer}>
+        <div className={styles.aboutContainer} id='about'>
             <h1 className={styles.aboutHeader}>ABOUT ME</h1>
             <p className={styles.aboutDesc}>Hello! I'm Jeremiah, a software engineer and doting cat uncle.  When I'm not giving pets to my favorite cat, I'm complimenting other peoples' favorite cat/s.</p>
             <br />

@@ -20,8 +20,8 @@ function Navigation() {
                     <>
                         <ul className={styles.navMenu}>
                             <a href='#skills'><li className={styles.jumpLink}>Skills</li></a>
-                            <li className={styles.jumpLink}>Projects</li>
-                            <li className={styles.jumpLink}>About</li>
+                            <a href='#projects'><li className={styles.jumpLink}>Projects</li></a>
+                            <a href='#about'><li className={styles.jumpLink}>About</li></a>
                             <li className={styles.resumeLink}>CV</li>
                             <li className={styles.githubLink}>GitHub</li>
                             <li className={styles.linkedInLink}>LinkedIn</li>

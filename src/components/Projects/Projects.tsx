@@ -6,7 +6,7 @@ import felp from './img/felp.png';
 
 function Projects() {
     return (
-        <div className={styles.projectComponentContainer}>
+        <div className={styles.projectComponentContainer} id='projects'>
             <h1 className={styles.headerOne}>PROJECTS</h1>
             <div className={styles.projectContainer}>
                 <div className={styles.projectImgContainer}>
