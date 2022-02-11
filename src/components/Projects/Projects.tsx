@@ -23,7 +23,7 @@ function Projects() {
                     </div>
                 </div>
             </div>
-            <div className={styles.projectContainer} data-aos='flip-left' data-aos-once='true'>
+            <div className={`${styles.projectContainer} ${styles.projectTwo}`} data-aos='flip-left' data-aos-once='true'>
                 <div className={styles.projectImgContainer}>
                     <img src={dnd} alt='Application State' className={styles.projectImg} />
                 </div>
@@ -42,7 +42,7 @@ function Projects() {
                 </div>
                 <div className={styles.project}>
                     <h2 className={styles.projectHeader}>FELP</h2>
-                    <p className={styles.projectDesc}>FELP is a blog style food review application to document the hottest spots to go to eat.  The idea is verified locals who have lived in a certain area for an extended period of time would suggest the bets local restaraunts for tourists to go.  The application has full CRUD functionaliy for registered users.  Frontend created using React, Javascript, CSS, with requests handled using Axios.  Backend created with MongoDB, Mongoose, Express, with user authentication being handled by Passport.  Feel like a local even when you're out of town.</p>
+                    <p className={`${styles.projectDesc} ${styles.projectThreeDesc}`}>FELP is a blog style food review application to document the hottest spots to go to eat.  The idea is verified locals who have lived in a certain area for an extended period of time would suggest the bets local restaraunts for tourists to go.  The application has full CRUD functionaliy for registered users.  Frontend created using React, Javascript, CSS, with requests handled using Axios.  Backend created with MongoDB, Mongoose, Express, with user authentication being handled by Passport.  Feel like a local even when you're out of town.</p>
                     <div className={styles.projectLinkContainer3}>
                         <a href='https://felp-official.netlify.app/' target='_blank' rel='noreferrer' className={styles.projectLink}>Application</a>
                         <a href='https://github.com/leejoonli/felp-frontend' target='_blank' rel='noreferrer' className={styles.projectLink}>Frontend</a>
@@ -50,7 +50,7 @@ function Projects() {
                     </div>
                 </div>
             </div>
-            <div className={styles.projectContainer} data-aos='flip-left' data-aos-once='true'>
+            <div className={`${styles.projectContainer} ${styles.project4}`} data-aos='flip-left' data-aos-once='true'>
                 <div className={styles.projectImgContainer}>placeholder project 4</div>
                 <div className={styles.project4}>
                     <h2 className={styles.projectHeader}>project 4 name</h2>
