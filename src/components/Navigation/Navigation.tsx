@@ -24,9 +24,9 @@ function Navigation() {
                 {showNav && (
                     <>
                         <ul className={styles.navMenu}>
-                            <a href='#skills'><li className={styles.jumpLink}>SKILLS</li></a>
-                            <a href='#projects'><li className={styles.jumpLink}>PROJECTS</li></a>
-                            <a href='#about'><li className={styles.jumpLink}>ABOUT</li></a>
+                            <a href='#skills' className={styles.aTagNav}><li className={styles.jumpLink}>SKILLS</li></a>
+                            <a href='#projects' className={styles.aTagNav}><li className={styles.jumpLink}>PROJECTS</li></a>
+                            <a href='#about' className={styles.aTagNav}><li className={styles.jumpLink}>ABOUT</li></a>
                             <li className={styles.resumeLink}>CV</li>
                             <li className={styles.otherLink}>
                                 <a href='https://github.com/leejoonli' target='_blank' rel='noreferrer' className={styles.aTag}><img src={github} alt="Link to Jeremiah's Github" className={styles.imgLink} /></a>
