@@ -86,6 +86,10 @@
         flex-basis: 10%;
     }
 
+    .jumpLink:hover, .resumeLink:hover {
+        background-color: black;
+    }
+
     .aTagNav {
         display: inherit;
         align-items: center;
