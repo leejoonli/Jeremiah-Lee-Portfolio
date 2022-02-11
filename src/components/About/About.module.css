@@ -18,3 +18,19 @@
     line-height: 25px;
     padding: 0% 7%;
 }
+
+@media (min-width: 600px) {
+    .aboutContainer {
+        padding: 5%;
+    }
+
+    .aboutHeader {
+        font-size: 2.5rem;
+        padding: 3% 0%;
+    }
+
+    .aboutDesc {
+        padding: 1% 34% 0%;
+        line-height: 30px;
+    }
+}
