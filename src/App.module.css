@@ -26,3 +26,13 @@
     font-weight: 600;
     letter-spacing: 3px;
 }
+
+@media (min-width: 600px) {
+    .homeImg {
+        background-size: cover;
+    }
+
+    .homeName, .homeTitle {
+        text-shadow: 0px 4px 4px#1e1e1c;
+    }
+}

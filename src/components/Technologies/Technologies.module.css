@@ -1,14 +1,3 @@
-@keyframes popin {
-    from{
-        height: 0;
-        opacity: 0;
-    }
-    to{
-        height: 80px;
-        opacity: 1;
-    }
-}
-
 .techContainer {
     background-color: #1e1e1c;
     display: flex;
@@ -37,7 +26,6 @@
 
 .iconContainer {
     padding: 5%;
-    /* animation: popin .5s; */
 }
 
 .techIcons {
@@ -49,4 +37,25 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+@media (min-width: 600px) {
+    .techContainer {
+        height: 100vh;
+        padding: 7%;
+    }
+
+    .techHeading, .techHeading2 {
+        font-size: 2.5rem;
+        margin: 0 auto;
+        padding: 2%;
+    }
+
+    .languages, .frameworks {
+        flex-wrap: nowrap;
+        width: 60vw;
+    }
+    .techIcons {
+        height: 100px;
+    }
 }
