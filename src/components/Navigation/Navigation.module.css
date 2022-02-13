@@ -77,6 +77,7 @@
         flex-direction: row;
         flex-wrap: nowrap;
         padding: 1.5% 0% 1.5% 10%;
+        animation: slidein .3s;
     }
 
     .jumpLink, .resumeLink {
