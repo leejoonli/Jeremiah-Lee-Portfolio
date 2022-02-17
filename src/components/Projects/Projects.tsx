@@ -3,6 +3,7 @@ import styles from './Projects.module.css';
 import towerOfHanoi from './img/tower_of_hanoi.png';
 import dnd from './img/dnd.png';
 import felp from './img/felp.png';
+import expense from './img/expense_tracker.png';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -51,10 +52,15 @@ function Projects() {
                 </div>
             </div>
             <div className={`${styles.projectContainer} ${styles.project4}`} data-aos='flip-left' data-aos-once='true'>
-                <div className={styles.projectImgContainer}>placeholder project 4</div>
-                <div className={styles.project4}>
-                    <h2 className={styles.projectHeader}>project 4 name</h2>
-                    <p className={styles.projectDesc}>description project 4</p>
+                <div className={styles.projectImgContainer}><img src={expense} alt='Expense tracker application state' className={styles.projectImg} /></div>
+                <div className={styles.project}>
+                    <h2 className={styles.projectHeader}>Expense Tracker</h2>
+                    <p className={`${styles.projectDesc} ${styles.projectFourDesc}`}>This application is a basic expense tracker to keep tabs on your spending.  You can create, read, update, and delete any post that you input.  The backend database is hosted on Heroku and uses Django, Python, and the Django Rest Framework.  The frontend is created using React Native and Typescript.  Follow the viewing instructions on GitHub to view and use the application.</p>
+                    <div className={styles.projectLinkContainer3}>
+                        <a href='https://expo.dev/@leejoonli/expense-tracker' target='_blank' rel='noreferrer' className={styles.projectLink}>Application</a>
+                        <a href='https://github.com/leejoonli/expense-tracker' target='_blank' rel='noreferrer' className={styles.projectLink}>Frontend</a>
+                        <a href='https://github.com/leejoonli/expense-tracker-backend' target='_blank' rel='noreferrer' className={styles.projectLink}>Backend</a>
+                    </div>
                 </div>
             </div>
         </div>

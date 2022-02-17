@@ -96,6 +96,10 @@
         line-height: 35px;
     }
 
+    .projectFourDesc {
+        padding: 5%;
+    }
+
     .projectThreeDesc {
         padding: 5%;
         line-height: 30px;
