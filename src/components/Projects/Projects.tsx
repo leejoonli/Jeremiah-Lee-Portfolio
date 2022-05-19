@@ -4,6 +4,7 @@ import towerOfHanoi from './img/tower_of_hanoi.png';
 import dnd from './img/dnd.png';
 import felp from './img/felp.png';
 import expense from './img/expense_tracker.png';
+import hr from './img/hr.png';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -52,14 +53,14 @@ function Projects() {
             </div>
             <div className={styles.projectContainer} data-aos='flip-left' data-aos-once='true'>
                 <div className={styles.projectImgContainer}>
-                    <img src={towerOfHanoi} alt='Application State' className={styles.projectImg} />
+                    <img src={hr} alt='Application State' className={styles.projectImg} />
                 </div>
                 <div className={styles.project}>
-                    <h2 className={styles.projectHeader}>Tower of Hanoi</h2>
-                    <p className={styles.projectDesc}>Tower of Hanoi is an application based off the real-life mathematical puzzle game "Tower of Hanoi".  Can you complete this challenging game?  Adjust the difficulty and find out how far you can go.  Created in vanilla JavaScript, HTML, and CSS.</p>
+                    <h2 className={styles.projectHeader}>Human Resources Database</h2>
+                    <p className={styles.projectDesc}>MVC application of a human resources department database created using Python, PostgreSQL, and Django.  Establish multiple tables with interconnecting many-to-many and one-to-many relationship structure which are all accessible through the Django admin site and have full CRUD capabilities.</p>
                     <div className={styles.projectLinkContainer}>
-                        <a href='https://leejoonli.github.io/tower-of-hanoi/' target='_blank' rel='noreferrer' className={styles.projectLink}>Application</a>
-                        <a href='https://github.com/leejoonli/tower-of-hanoi' target='_blank' rel='noreferrer' className={styles.projectLink}>Repository</a>
+                        <a href='https://radiant-headland-38660.herokuapp.com/employees/' target='_blank' rel='noreferrer' className={styles.projectLink}>Application</a>
+                        <a href='https://github.com/leejoonli/python-postgres-db-1' target='_blank' rel='noreferrer' className={styles.projectLink}>Repository</a>
                     </div>
                 </div>
             </div>
