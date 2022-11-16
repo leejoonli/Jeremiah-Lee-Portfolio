@@ -5,6 +5,7 @@ import dnd from './img/dnd.png';
 import felp from './img/felp.png';
 import expense from './img/expense_tracker.png';
 import hr from './img/hr.png';
+import calculator from './img/calculator.png';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -62,6 +63,18 @@ function Projects() {
                         <a href='https://radiant-headland-38660.herokuapp.com/employees/' target='_blank' rel='noreferrer' className={styles.projectLink}>Application</a>
                         <a href='https://github.com/leejoonli/python-postgres-db-1' target='_blank' rel='noreferrer' className={styles.projectLink}>Repository</a>
                     </div>
+                </div>
+            </div>
+            <div className={styles.projectContainer} data-aos='flip-left' data-aos-once='true'>
+                <div className={styles.project}>
+                    <h2 className={styles.projectHeader}>Calculator</h2>
+                    <p className={styles.projectDesc}>Calculator application create using C#, Microsoft Visual Studio's Windows Form Template as a base, and deployed on GitHub with an executable file that can be installed on any computer.  Implemented logic to solve the data type conversion issue and achieve near identical functionality to a scientific calculator.</p>
+                    <div className={styles.projectLinkContainer}>
+                        <a href='https://github.com/leejoonli/calculator' target='_blank' rel='noreferrer' className={styles.projectLink}>Repository</a>
+                    </div>
+                </div>
+                <div className={styles.projectImgContainer}>
+                    <img src={calculator} alt='Application State' className={styles.projectImg} />
                 </div>
             </div>
         </div>
