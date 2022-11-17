@@ -11,6 +11,8 @@ import mongodb from './img/mongodb.png';
 import express from './img/express.png';
 import sql from './img/sql.png';
 import ts from './img/ts.png';
+import csharp from './img/csharp.png';
+import django from './img/django.png';
 
 function Technologies() {
     useEffect(() => {
@@ -28,6 +30,10 @@ function Technologies() {
                 <div className={styles.iconContainer}>
                     <img src={ts} alt="Typescript Icon" className={styles.techIcons} data-aos='zoom-in' data-aos-once='true' />
                     <h2 className={styles.techHeader}>TypeScript</h2>
+                </div>
+                <div className={styles.iconContainer}>
+                    <img src={csharp} alt="C# Icon" className={styles.techIcons} data-aos='zoom-in' data-aos-once='true' />
+                    <h2 className={styles.techHeader}>C#</h2>
                 </div>
                 <div className={styles.iconContainer}>
                     <img src={python} alt="Python Icon" className={styles.techIcons} data-aos='zoom-in' data-aos-once='true' />
@@ -59,6 +65,10 @@ function Technologies() {
                 <div className={styles.iconContainer}>
                     <img src={sql} alt="SQL Icon" className={styles.techIcons} data-aos='zoom-in' data-aos-once='true' />
                     <h2 className={styles.techHeader}>SQL</h2>
+                </div>
+                <div className={styles.iconContainer}>
+                    <img src={django} alt="Django Icon" className={styles.techIcons} data-aos='zoom-in' data-aos-once='true' />
+                    <h2 className={styles.techHeader}>Django</h2>
                 </div>
             </div>
         </div>
